@@ -1,6 +1,3 @@
-body {
-    background-color: rgb(118, 92, 120);
-  }
 
 
 
@@ -46,3 +43,99 @@ p {
     width: 50%;
     margin: 0 auto;
     color: rgb(255, 230, 204);}
+
+    #cows {
+      border-radius: 100px;
+      background: #ad2128;
+      padding: 20px;
+      width: 500px;
+      height: 400px;
+    }
+
+    #medno {
+      border-radius: 15px 50px 30px 5px;
+      background: #ad2121;
+      padding: 20px;
+      width: 500px;
+      height: 400px;
+    }
+
+    
+    
+  
+     
+  
+    .contextmenu
+      body {
+        background-color: rgb(13, 15, 158);
+      }
+    
+    h1 {
+        font-size: 50px;
+        font-weight: bold;
+      }
+    
+    p {
+        font-size: 30px;
+      }
+    
+    .formatText {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        white-space: pre-line;
+      }
+    
+      #joke {
+        border: 5px solid rgb(16, 29, 55);
+        background-color: rgb(131, 8, 14);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        margin: 0 auto;
+        color: rgb(255, 230, 204);
+      }
+    
+      #poem {border: 5px solid rgb(16, 29, 55);
+        background-color: rgb(7, 122, 103);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        margin: 0 auto;
+        color: rgb(255, 230, 204);}
+    
+        #cows {
+          border-radius: 100px;
+          background: #ad2128;
+          padding: 20px;
+          width: 500px;
+          height: 400px;
+        }
+    
+        #medno {
+          border-radius: 15px 50px 30px 5px;
+          background: #ad2121;
+          padding: 20px;
+          width: 500px;
+          height: 400px;
+        }
+    
+        #joke2 {
+          border: 5px solid rgb(16, 29, 55);
+          background-color: rgb(22, 146, 32);
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 50%;
+          margin: 0 auto;
+          color: rgb(255, 230, 204);
+      
+    }
+
+   
+   
