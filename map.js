@@ -45,10 +45,25 @@ const lexSub = L.marker([40.7795, -73.9558]).addTo(poemMap)
 lexSub.bindPopup("<b>86th Street and Lexington Avenue</b>");
 
 const subway = L.polyline([
-    [40.7792, -73.9635],
+    [40.7792, -73.9635] ,
     [40.7795, -73.9558]
 ], {
     color: 'green'
 }).addTo(poemMap);
 
 subway.bindPopup("<b>The 4,5,6 trains stop here. This is the closest subway service to the Metropolitan Museum of Art</b>");
+
+const subway2 = L.polyline([
+    [40.7792, -73.9635],
+    [40.7795, -73.9558],
+    [40.7769, -73.9574],
+], {
+    color: 'orange'
+}).addTo(poemMap);
+
+const subway3 = L.polyline([
+    [40.7792, -73.9635] ,
+    [40.7769, -73.9574]
+], {
+    color: 'orange'
+}).addTo(poemMap)
